@@ -1,0 +1,51 @@
+/* Colour Palette 
+/-----------------
+--prussian-blue: #103659ff;
+--red-pigment: #eb1b23ff;
+--aero: #86b9eaff;
+--aero-blue: #c2fee3ff;
+--go-green: #02ae62ff;
+*/
+
+/* Fonts
+/-------
+*/
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body{
+	background-color: rgb(220, 229, 238);
+}
+
+ul{
+	padding:0;
+	list-style:none;
+}
+
+nav img{
+	height: 80px;
+	width:80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

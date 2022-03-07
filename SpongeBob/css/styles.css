@@ -35,14 +35,14 @@ body {
     margin: 0 auto;
     padding: 60px 0;
 }
-img{
+image{
     width:300px;
 }
 a {
     color:#355691ff;
 }
 a:hover{
-    text-decoration:none;
+    text-decoration:nothing;
 }
 
 h1{

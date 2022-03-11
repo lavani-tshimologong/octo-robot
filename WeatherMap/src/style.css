@@ -22,11 +22,9 @@ nav h1{
 .clock{
     float: right;
     letter-spacing: 0.2ch;
-    
 }
 .current{
     padding: 2rem 5%;
-    
 }
 .current-location {
     display: flex;

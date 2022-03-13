@@ -14,7 +14,6 @@ cinnabar: #DC4731ff;
 
 /* Global Styles
 --------------------------------------*/
-
 html{
     box-sizing:border-box;
 }
@@ -35,14 +34,14 @@ body {
     margin: 0 auto;
     padding: 60px 0;
 }
-image{
+img{ /*image*/
     width:300px;
 }
 a {
     color:#355691ff;
 }
 a:hover{
-    text-decoration:nothing;
+    text-decoration:none; /*nothing*/
 }
 
 h1{
@@ -70,7 +69,6 @@ h1,h2 {
 
 /* Profile
 --------------------------------------*/
-
 header{
     color: #355691ff;
     text-align: center;
@@ -115,7 +113,6 @@ header p {
     color: #355691ff;
 }
 
-
 /* Work Experience
 --------------------------------------*/
 .work-experience {
@@ -140,14 +137,12 @@ footer {
     color:#f7fff7;
     text-align:center;
 }
-
 .contact-list{
     list-style-type:none;
     padding:0;
     display: flex;
     justify-content: center;
 }
-
 .contact-list a{
     padding: 15px;
     display: inline-block;

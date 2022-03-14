@@ -5,10 +5,10 @@
 		<title>App Factory 2022</title>
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<script src="https://kit.fontawesome.com/07b3a6b7ad.js" crossorigin="anonymous"></script>
 		<link
 			href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;0,700;1,400&family=Source+Sans+Pro:ital,wght@0,700;0,900;1,700;1,900&display=swap"
 			rel="stylesheet">
+		<script src="https://kit.fontawesome.com/07b3a6b7ad.js" crossorigin="anonymous"></script>
 		<link href="./css/style.css" rel="stylesheet">
 	</head>
 	<body>
@@ -17,11 +17,20 @@
 				<img src="./img/app factory 2022.png">
 			</div>
 			<ul> 
-				<li><a href="index.html">Home</a></li>
-				<li><a href="#">Brand</a></li>
-				<li><a href="#">Projects <i class="fas fa-caret-down"></i></a></li>
-				<li><a href="#">Team <i class="fas fa-caret-down"></i></a></li>
-				<li><a href="#">About Programme</a></li>
+				<li><a href="#index.html">Home</a></li>
+				<li><a href="appFactory.html#our-brand">Brand</a></li>
+				<li><a href="appFactory.html#our-projects">Projects <i class="fas fa-caret-down"></i></a></li>
+				<li><a href="appFactory.html#our-people">Team <i class="fas fa-caret-down"></i></a></li>
+				<li><a href="index.html#about">About Programme</a></li>
+
+				<div class="dropdown">
+					<button onclick="myFunction()" class="dropbtn">Dropdown</button>
+					<div id="myDropdown" class="dropdown-content">
+					  <a href="#">Link 1</a>
+					  <a href="#">Link 2</a>
+					  <a href="#">Link 3</a>
+					</div>
+				  </div>
 			</ul>
 		</nav>
 		<!-- <h1>App Factory 2022</h1> -->
@@ -32,24 +41,24 @@
 			<div class="sub-intro">
 				<div>
 					<h3>Inquisitive</h3>
-					<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique accusamus aliquid soluta consequuntur!</p>
+					<p>Our programme is for curious graduates, who enjoy exploring applications and are keen to learn software development.</p>
 				</div>
 				<div>
 					<h3>Determination</h3>
-					<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique accusamus aliquid soluta consequuntur!</p>
+					<p>To succeed, graduates must demonstrate their willingness to learn, grit, and enthusiasm for their work.</p>
 				</div>
 				<div>
 					<h3>Optimistic</h3>
-					<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique accusamus aliquid soluta consequuntur!</p>
+					<p>As an organization, we are confident that by the end of this program, the graduates will be work place ready.</p>
 				</div>
 				<div>
 					<h3>Intellingence</h3>
-					<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique accusamus aliquid soluta consequuntur!</p>
+					<p>Our program aims to sharpen one’s intellect and skills in the IT Industry, particularly in software development.!</p>
 				</div>
 			</div>
 		</section>
 		<section class="about">
-			<img src="./img/AppFactorylogo.png">
+			<img src="./img/group-photo1.jpg" alt="Group of people working together">
 			<div>
 				<h1>What is the App Factory? </h1>
 				<p>The App Factory Internship Programme is a partnership between Samsung South Africa and Wits University’s Tshimologong Digital Innovation Precinct.</p>
@@ -68,7 +77,7 @@
 			<div class="location">
 				<iframe
 					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3580.0643656546868!2d28.029705815351612!3d-26.19458438344202!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e950c1b6a6a1df1%3A0xc45fc4ca472e6a2f!2s41%20Juta%20St%2C%20Braamfontein%2C%20Johannesburg%2C%202000!5e0!3m2!1sen!2sza!4v1642593471384!5m2!1sen!2sza"
-					width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy">
+					width="550" height="300" style="border:0;" allowfullscreen="" loading="lazy">
 				</iframe>
 				<address>
 					<p><i class="fas fa-map-marker-alt"></i> Tshimologong Precinct,41 Juta Street,Braamfontein,Johannesburg</p>
@@ -83,70 +92,8 @@
 				<div class="copyright-text">
 					<p><i class="fas fa-copyright"></i> All rights reserved</p>
 				</div>
-				
 			</div>
 		</footer>
 		<script src="js/app.js"></script>
 	</body>
 </html>
-
-	<!-- <div class="wrapper">
-		<section>
-			<H2>Our Brand</H2>
-			<h3>Our Colours</h3>
-			<div class="colour-group">
-				<button type="button" class="colour blue"></button>
-				<button type="button" class="colour yellow"></button>
-				<button type="button" class="colour flame"></button>
-				<button type="button" class="colour light-blue"></button>
-			</div>
-			<h3>Our Typography</h3>
-			<button type="button" class="typography">
-				<h1>Heading 1</h1>
-			</button>
-			<button type="button" class="typography">
-				<h2>Heading 2</h2>
-			</button>
-			<button type="button" class="typography">
-				<h3>Heading 3</h3>
-			</button>
-			<button type="button" class="typography">
-				<p>Paragraph text</p>
-			</button>
-			<h3>Our Logos</h3>
-			<img src="./img/AppFactorylogo.png">
-			<img src="./img/AppFactoryLogo.svg">
-			<img src="./img/logo 3.svg">
-			<div class="logo-group">
-			<img src="./img/app factory 2022.jpg">
-			<div class="logo-dark">
-				<img src="./img/app factory 2022.png">
-			</div>
-			<img src="./img/app factory 2022(1).jpg">
-			<img src="./img/app factory 2022(2).png">
-			</div>
-			<h3>Our People</h3>
-			<h3>Our Projects</h3>
-			<ul>
-				<li><a href="./ToDoList/todolist.html">To Do List</a></li>
-				<li><a href="./WeatherMap/src/weathermap.html">Weather App </a></li>
-				<li><a href="./SpongeBob/spongebob.html">SpongeBob's Profile</a></li>
-				<li><a href="./AlienAbduction/alien.html"> Alien Abduction</a></li>
-			</ul>
-		</section>
-		<aside>
-			<h2>Our Location</h2>
-			<address>
-				<ul>
-					<li>Tshimologong Precinct </li>
-					<li>41 Juta Street </li>
-					<li>Braamfontein </li>
-					<li>Johannesburg</li>
-				</ul>
-			</address>
-			<iframe
-				src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3580.0643656546868!2d28.029705815351612!3d-26.19458438344202!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e950c1b6a6a1df1%3A0xc45fc4ca472e6a2f!2s41%20Juta%20St%2C%20Braamfontein%2C%20Johannesburg%2C%202000!5e0!3m2!1sen!2sza!4v1642593471384!5m2!1sen!2sza"
-				width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy">
-			</iframe>
-		</aside>
-	</div> -->

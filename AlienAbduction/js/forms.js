@@ -36,7 +36,7 @@ function sendData() {
       encodeURIComponent(form.querySelector("[name='requesteddate']").value)
   );
   urlEncodedDataPairs.push(
-    encodeURIComponent("quantitty") +
+    encodeURIComponent("qty") + //quantitty
       "=" +
       encodeURIComponent(form.querySelector("[name='peopleno']").value)
   );

@@ -6,21 +6,89 @@
 #00BAE4 - Cyan Process
 */
 
-
 /* Fonts
 /-------
 font-family: 'Montserrat', sans-serif;
 font-family: 'Source Sans Pro', sans-serif;
 */
 
-html {
-  box-sizing: border-box;
-}
+/* global */
+* {box-sizing: border-box;}
 *, *:before, *:after {
   box-sizing: inherit;
 }
 
-ul{
+/* Nav bar */
+nav {
+	background-color: #0B2343;
+	display: flex;
+}
+nav img {
+	width: 100px;
+	cursor: pointer;	
+}
+nav > .logo {flex-basis: 45%;}
+nav ul {
+	list-style-type: none;
+	cursor: pointer;
+	display: flex;
+	gap: 2rem;
+	align-items: center;
+}
+nav ul li a {
+	text-decoration: none; 
+	color: #fff;
+}
+nav ul li a:hover {color: #00BAE4;}
+
+/* intro */
+.intro-1 {padding: 0;}
+.intro-1 > img {
+	width: 1200px;
+	height: 800px;
+}
+.sub-intro {display: flex;}
+.sub-intro > div {
+	flex-basis: 24.3%;
+	text-align: center;
+}
+
+/* about */
+.about {
+	display: flex;
+	background-color: gray;
+}
+.about > img {width: 300px;}
+.about > div {padding: .5rem;}
+
+/* cloud */
+.cloud {
+	background-image: url("./img/app factory 2022.jpg");
+	background-color: #cccccc;
+	padding: .5rem;
+}
+.cloud h2,
+.cloud h3 {	text-align: center;}
+
+/* footer */
+footer {
+	background-color: #0B2343;
+	padding: .5rem;
+	color: #fff;
+}
+.location {
+	display: flex;
+	padding-bottom: .5rem;
+}
+.location > address {margin-left: 1.5rem;}
+.copyright {
+	background-color: #00BAE4;
+	display: flex;
+	padding: .5rem;
+}
+.copyright > .copyright-img {flex-basis: 80%;}
+
+/* ul{
 	padding:0;
 	list-style:none;
 }
@@ -82,7 +150,7 @@ p{
 
 .logo-dark{
 	background-color: #0B2343;
-}
+} */
 
 
 

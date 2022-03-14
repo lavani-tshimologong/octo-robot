@@ -54,7 +54,7 @@ function sendData() {
   // dropdown menu
   var dropdown = form.querySelector("[name='experiencetype']");
   urlEncodedDataPairs.push(
-    encodeURIComponent("experiencetype") +
+    encodeURIComponent("abtype") + //experiencetype
       "=" +
       encodeURIComponent(dropdown.options[dropdown.selectedIndex].text)
   );
